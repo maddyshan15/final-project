@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+body{
+    margin:0 auto;
+    max-width: 100vh;
+    background-image: url(/img/clouds.png);
+    height: 200vh;
+    width: 100vh;
+    padding: 50px;
+
+}
+.hero-image{
+    height: 800px;
+}
+
+
+header, nav, aside, section, article, footer{
+    background-color: hsl(60deg 100% 93%);
+    border: 1px solid #333;
+}
+
+header, nav, footer{
+    height: 100px;
+    width: 100%;
+}
+
+section, article, aside{
+
+}
+
+section, article{
+    height: 20%;
+}
+
+aside{
+    height: 40%;
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 2px blueviolet;
+    color: #ec8fbf;
+    padding: 2px;
+    font-size: 20px;
+
+    /* border: 1px solid; */
+    /* box-shadow: 5px 10px black; */
+    
+}
+nav, header{
+    position: sticky;
+    top: 0;
+    text-align:center;
+    font-family: 'Kiwi Maru', serif;
+}
+a:hover{
+    font: size 200px;
+    font-size-adjust: 200px;
+    transition-duration: 1s;
+    color: #333;
+    background-color:#ec8fbf;
+}
+a:visited{
+    color:blueviolet
+}
+
+p{
+    font-family: 'Bitter', serif;
+}
