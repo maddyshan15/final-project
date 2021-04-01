@@ -38,7 +38,7 @@ header {
     align-items: center;
 }
 .hero-image{
-    background-image: url(/img/moving-clouds.gif);
+    background-image: url(../img/moving-clouds.gif);
     height: 30%;
     background-position: center;
     background-repeat: no-repeat;
